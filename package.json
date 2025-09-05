@@ -6,11 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint",
-    "lint:fix": "eslint --fix",
-    "type-check": "tsc --noEmit",
-    "build:check": "node scripts/build-check.js && npm run build",
-    "setup": "node scripts/setup.js"
+    "lint": "next lint"
   },
   "dependencies": {
     "microcms-js-sdk": "^3.2.0",
