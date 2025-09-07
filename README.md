@@ -46,6 +46,39 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Version Information
+
+This template uses the following stable versions of the main libraries:
+
+*   **Next.js:** 14.2.32
+*   **React:** 18.3.1
+*   **Tailwind CSS:** 3.4.17
+
+These versions have been selected to ensure stability and compatibility.
+
+## How to Use This Template
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/your-username/your-repo-name.git
+    cd your-repo-name
+    ```
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+3.  **Set up your environment variables:**
+    Create a `.env.local` file in the root of your project and add the following:
+    ```
+    MICROCMS_SERVICE_DOMAIN=your-service-id
+    MICROCMS_API_KEY=your-api-key
+    ```
+4.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+    Open [http://localhost:3000](http://localhost:3000) to see the result.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
